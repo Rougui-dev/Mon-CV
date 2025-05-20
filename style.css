@@ -1,0 +1,61 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f8f8
+}
+.cv-container{
+    width: 70%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgb(0, 0, 0,0.1);
+    border-radius: 10px;
+}
+section h2 {
+    color: #fff;
+    border-bottom: 1px solid #3bd4d7 ;
+    padding-bottom: 5px;
+    width: 50%;
+    background-color: #2bc5b8;
+    display: flex;
+    justify-content: center;
+}
+.photo-profil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px; 
+
+}
+.cv-content{
+display: flex;
+gap: 20px;
+}
+.col-gauche, .col-droite{
+    width: 50%;
+}
+@media screen and (max-width: 768px) {
+    .cv-content{
+    flex-direction: column;
+    }
+   .col-gauche,.col-droite{
+    width: 100%;
+   }
+   header {
+    flex-direction: column;
+   }
+}
+header{
+    display: flex;
+}
+.nom{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    
+    
+}
+
+
+    
+
